@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76966409b8.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- <main>
+        <center>
+            <div class="main-container"><br><br><br>
+                <div class="account-creation">
+                    <h1>Create an account</h1>
+                </div>
+                <form action="">
+                   <div class="validation"><br>
+                        <label for="username">Username</label><br>  
+                        <input type="text" name="username" class="username" placeholder="Username">
+                        <i class="fa-solid fa-circle-check"></i><br><br>
+                   </div>
+                   <div class="validation">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" class="email" placeholder="Email">
+                        <i class="fa-solid fa-circle-check"></i><br><br>
+                   </div>
+                   <div class="validation">
+                        <label for="pw">Password</label><br>
+                        <input type="password" name="password" class="pw" placeholder="Password">
+                        <i class="fa-solid fa-circle-check"></i><br><br>
+                   </div>
+                   <div class="validation">
+                        <label for="confirm-pw">Confirm Password</label><br>
+                        <input type="password" name="confirm-password" class="confirm-pw" placeholder="Confirm password">
+                        <i class="fa-solid fa-circle-check"></i><br><br>
+                   </div>
+                   <div class="validation">
+                        <input type="submit" value="submit" class="submit"><br>
+                   </div>
+                </form>
+                <div class="validation">
+                    <p>already have an account <span><a href="#"><b>sign in</b></a></span></p><br>
+                </div>
+            </div>
+        </center>
+    </main> -->
+   <div class="container">
+        <div class="header">
+            <h2>create account</h2>
+        </div>
+        <form class="form">
+            <div class="form-validate">
+                <label for="username" name="username">username</label>
+                <input id="username" type="text" name="username" placeholder="eg.otijoseph305"/>
+                <small>Error message</small>
+            </div>
+             <div class="form-validate">
+                <label for="email" name="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="eg.otijoseph@gmail.com"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-validate">
+                <label for="password" name="password">password</label>
+                <input id="password" type="password" name="password" placeholder="password"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-validate">
+                <label for="conpwd" name="conpwd">confirm password</label>
+                <input id="conpwd" type="password" name="conpwd" placeholder="confirm password"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-validate">
+                <button>Register</button>
+            </div>
+            <div class="form-validate">
+                <p>already have an account <span><a href="#"><b>sign in</b></a></span></p>
+            </div>
+        </form>
+   </div>
+</body>
+</html>

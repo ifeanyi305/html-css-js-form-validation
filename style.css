@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header{
+    background-color: silver;
+    padding: 15px 20px;
+    font-family:   sans-serif;
+}
+.form{
+    padding: 10px 20px;
+}
+.form-validate{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-validate table{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-validate input{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+    border: 4px soid white;
+}
+.form-validate.correct input{
+    border: 2px solid green;
+}
+.form-validate.incorrect input{
+    border: 2px solid red;
+}
+.form-validate small{
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+button{
+    background-color: #9b59b6;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    opacity: 0.7;
+    color: black;
+}
+/* body{
+    background-color: aquamarine;
+}
+.validation{
+    background-color: whitesmoke;
+    max-width: 30%;
+}
+.account-creation{
+    background-color: silver;
+    max-width: 30%;
+}
+.username,.email,.pw,.confirm-pw{
+    padding: 7px 25px;
+    max-width: 70%;
+}
+.submit{
+    padding: 4px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(34, 34, 223);
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity: 0.8;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+} */
